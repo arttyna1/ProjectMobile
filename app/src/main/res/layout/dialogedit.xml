@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/smoke"
+        >
+
+        <TextView
+            android:id="@+id/abc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:text="แก้ไขข้อมูลส่วนตัว"
+            android:textSize="15dp" />
+    </Toolbar>
+
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ชือ่"
+            android:textSize="20dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editacname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ที่อยู่"
+            android:textSize="20dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editacadd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="316dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ที่อยู่"
+            android:textSize="20dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editactel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textSize="20dp"
+
+            />
+    </LinearLayout>
+</LinearLayout>

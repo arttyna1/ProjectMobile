@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insertcar"
+    android:orientation="vertical"
+    >
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/smoke">
+
+        <TextView
+            android:id="@+id/abc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:text="เพิ่มข้อมูลรถ"
+            android:textSize="15dp"
+
+            />
+    </Toolbar>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="210dp"
+        android:layout_height="202dp"
+        android:src="@drawable/images"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    >
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:text="หมายเลขทะเบียน"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/textView7"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7"
+        android:ems="10"
+        android:inputType="textPersonName" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="กรุณาเลือกประเภทรถ"
+            android:textSize="15dp" />
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:id="@+id/spin"
+            android:layout_width="183dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_marginLeft="18dp"
+            android:layout_toRightOf="@id/textView8">
+
+        </android.support.v7.widget.AppCompatSpinner>
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/buttonup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="94dp"
+        android:text="Add"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_radius"
+        android:textColor="@color/white"
+        />
+    <Toolbar
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/smoke"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logout"
+            />
+        <TextView
+            android:id="@+id/abcdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:text="ย้อนกลับ"
+            android:textSize="15dp"
+
+            />
+    </Toolbar>
+</LinearLayout>
